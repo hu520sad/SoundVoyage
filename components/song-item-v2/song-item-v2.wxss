@@ -1,0 +1,37 @@
+.item{
+    display: flex;
+    padding: 20rpx 30rpx 0;
+}
+
+.item .index{
+    font-size: 30rpx;
+    text-align: center;
+    display: flex;
+    padding: 12rpx;
+    align-items: center;
+}
+.info{
+    font-size: 38rpx;
+    color: #000000;
+    height: 90rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12rpx 0 12rpx 22rpx;
+}
+
+.info .source{
+    display: flex;
+    align-items: center;
+    padding-top: 10rpx;    
+}
+.info .source .singer{
+    font-size: 24rpx;
+    color:#666;
+    margin-left: 10rpx;
+}
+
+.info .source .icon{
+    width:38rpx;
+    height: 22rpx;
+}

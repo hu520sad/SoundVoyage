@@ -1,0 +1,38 @@
+.nav{
+    display: flex;
+    height: 44px;
+    color: #fff;
+}
+
+.nav .left, .nav .right{
+    width: 120rpx;
+}
+
+.left, .right,.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav .center{
+    flex:1;
+}
+
+
+.icon{
+    width: 40rpx;
+    height: 40rpx;
+}
+.default{
+    display: none;
+}
+/* .left .default{
+    display:flex;
+} */
+
+.slot:empty +.default{
+    display: flex;
+}
+.left .default{
+    display: flex;
+}

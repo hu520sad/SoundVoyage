@@ -1,0 +1,14 @@
+page{
+    padding: 0 24rpx 0 24rpx;
+    box-sizing: border-box;
+}
+
+.menu-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.iten{
+    width: 48%;
+}

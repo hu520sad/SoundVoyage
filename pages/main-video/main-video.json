@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+      "video-item":"/components/video-item/video-item",
+      "van-button": "@vant/weapp/button/index"
+  }, 
+  "navigationBarTitleText": "推荐视频",
+  "enablePullDownRefresh": true
+}

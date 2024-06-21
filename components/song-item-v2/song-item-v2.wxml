@@ -1,0 +1,12 @@
+<view class="item" bind:tap="onSongTap">
+    <view class="index">
+        {{index}}
+    </view>
+    <view class="info">
+        <view>{{itemData.name}}</view>
+      <view class="source">
+      <image class="icon" src="/assets/images/icons/sq_icon.png"/>
+      <view class="singer">{{itemData.ar[0].name}}</view>
+      </view>
+    </view>
+</view>

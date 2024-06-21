@@ -1,0 +1,10 @@
+<wxs src="/utils/format.wxs" module="fmt"/>
+<view class="Menu" bind:tap="onMenuItemClick">
+    <view class="album">
+        <image class="image" src="{{itemData.coverImgUrl}}" mode="widthFix"/>
+        <view class="playCount">{{fmt.countFormat(itemData.playCount)}}</view>
+    </view>
+    <view class="info">
+       {{itemData.name}}
+    </view>
+</view>

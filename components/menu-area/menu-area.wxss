@@ -1,0 +1,17 @@
+.list{
+    white-space: nowrap;
+    margin-top: 26rpx;
+    /* display: flex; */
+    margin-left: -24rpx;
+}
+
+.list .MenuItem{
+    /* flex-shrink: 0; */
+    display: inline-block;
+    width: 220rpx;
+    margin-left:24rpx ;
+}
+
+.list .MenuItem:last-of-type{
+    margin-right: 24rpx;
+}

@@ -1,0 +1,19 @@
+<!--pages/detail-video/detail-video.wxml-->
+<video class="video" src="{{url}}" referrer-policy="origin"/>
+
+<scroll-view class="underContent" scroll-y>
+        <view class="info">
+            <view>{{MvInfo.artistName}}</view>
+            <view>{{MvInfo.desc}}</view>
+        </view>
+        <view class="related">
+            <block wx:for="{{relatedList}}" wx:key="id">
+                <view class="album">
+                    <image src="{{item.cover}}" mode="widthFix"/>
+                </view>
+                <view class="info">
+                    <view class="content">{{item.name}}-{{item.artistName}}</view>
+                </view>
+            </block>
+        </view>
+</scroll-view>

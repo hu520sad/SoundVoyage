@@ -1,0 +1,10 @@
+<view class="hot-menu" wx:if="{{menuList.length}}">
+    <section-header title="{{title}}" bind:tap="onMoreClick"></section-header>
+    <scroll-view scroll-x enable-flex class="list" style="width:{{screenWidth}}px">
+        <block wx:for="{{menuList}}" wx:key="id">
+        <view class="MenuItem">
+            <menu-item  itemData="{{item}}"></menu-item>
+        </view>
+        </block>
+    </scroll-view>
+</view>

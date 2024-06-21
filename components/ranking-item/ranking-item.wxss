@@ -1,0 +1,57 @@
+.rankingList{
+    display: flex;
+    background-color: #eee;
+    margin-top: 20rpx;
+    border-radius: 20rpx;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.content{
+    /* flex:4; */
+    overflow: hidden;
+    padding: 24rpx;
+}
+
+.content .title{
+    font-size: 34rpx;
+}
+
+.content .list .item{
+    color: #333;
+    margin-top: 12rpx;
+    text-overflow: ellipsis;
+}
+
+.content .list .item .singer{
+    color: #999;
+}
+
+.content .list{
+    font-size: 24rpx;
+}
+
+
+.album{
+    display: flex;
+    position: relative;
+    /* flex:2;     */
+}
+
+.album .image{
+    width: 220rpx;
+    height: 220rpx;
+    background-size: cover;
+}
+
+.album .count{
+    position: absolute;
+    bottom: 10rpx;
+    right: 0;
+    color: #fff;
+    font-size: 22rpx;
+    padding: 6rpx 10rpx; 
+    border-radius: 12rpx;
+    background: rgba(0, 0, 0, .5);
+}
+

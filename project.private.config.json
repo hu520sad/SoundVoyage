@@ -1,0 +1,42 @@
+{
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "SkyMusic",
+  "setting": {
+    "compileHotReLoad": true,
+    "urlCheck": false
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "歌曲播放",
+          "pathName": "pages/music-player/music-player",
+          "query": "id=2158973221",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "歌曲菜单",
+          "pathName": "pages/detail-song/detail-song",
+          "query": "type=menu&id=26467411",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "歌单详情",
+          "pathName": "pages/detail-menu/detail-menu",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "视频详情",
+          "pathName": "pages/detail-video/detail-video",
+          "query": "id=14719419",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

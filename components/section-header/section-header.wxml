@@ -1,0 +1,9 @@
+<!--components/section-header/section-header.wxml-->
+
+<view class="header">
+    <view class="title">{{title}}</view>
+    <view class="more" bind:tap="onMoreClick" wx:if="{{hasMore}}">
+        <text class='text'>更多</text>
+        <van-icon name="arrow" />
+    </view>
+</view>

@@ -1,0 +1,24 @@
+page{
+    background-color: #fafafa;
+    --search-background-color:#fff;
+    --search-padding:10px 0;
+    box-sizing: border-box;
+    padding: 0 24rpx; 
+} 
+
+/* .van-search__content{
+    background-color: #fafafa!important;   
+} */
+
+.banner{
+    border-radius: 12rpx;
+    overflow: hidden;
+}
+.banner-image{
+    width:100%;
+}
+
+.recommand{
+    margin-top: 26rpx;
+}
+

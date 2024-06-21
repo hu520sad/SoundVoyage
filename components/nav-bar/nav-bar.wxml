@@ -1,0 +1,25 @@
+<view class="tabBar">
+<view class="status" style="height: {{statusHeight}}px;"></view>
+<view class="nav">
+    <view class="left">
+        <view class="default">
+            <image class="icon" src="/assets/images/icons/arrow-left.png"/>
+        </view>
+        <view class="slot">
+            <slot name="left">
+            </slot>
+        </view>
+    </view>
+    <view class="center">
+        <view class="slot">
+            <slot name="center">
+            </slot>
+        </view>
+        <view class="default">
+            歌曲播放
+        </view>
+    </view>
+    <view class="right"></view>
+</view>
+</view>
+
